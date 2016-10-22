@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddTejemplos123 extends Migration
+class AddRonald extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,7 @@ class AddTejemplos123 extends Migration
      */
     public function up()
     {
-        Schema::create('tejemplos123', function (Blueprint $table) {
-            $table->string('nombres');
-            $table->string('apellidos');
-            $table->string('alias');
-            $table->string('alias2');
-        });
+        //
     }
 
     /**
