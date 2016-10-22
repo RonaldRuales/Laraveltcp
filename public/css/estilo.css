@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #ADAEAB;
+}
+header{
+	margin: :0;
+	padding: 0;
+	width: 100%;
+	height: 80px;
+	background: #949791;
+}
+.cTxtLogin{
+	background: red;
+	color: green;
+}
+.txt2{
+	background: yellow;
+}
+#idUnico{
+	background: #000;
+}
+#idUnico:hover{
+	background: #000;
+}
+nav.clInicio{
+	float: left ;
+	width: 100%;
+	height:650px;
+	z-index:999;
+	height:600px;
+}
+.clInicio ul{
+	list-style:none;
+	float:right;
+}
